@@ -9,22 +9,21 @@ body{
   padding-right: 100px;
 }
 .navbar {
-  background-color: darkgray;
+  background-color: lightskyblue;
   overflow: hidden;
 }
 .navbar a {
   float: top;
   color: #ffffff;
   text-align: center;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding: 20px 20px;
   font-size: 35px;
 }
 .navbar a:hover {
-  background-color: black;
-  color:black;
+  background-color: lightslategray;
+  color:#ffffff;
 }
 .navbar a.active {
-  background-color:black;
-  color: white;
+  background-color:lightseagreen;
+  color: lightgray;
 }
