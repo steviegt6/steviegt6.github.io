@@ -8,3 +8,23 @@ body{
   padding-left: 100px;
   padding-right: 100px;
 }
+.navbar {
+  background-color: darkgray;
+  overflow: hidden;
+}
+.navbar a {
+  float: top;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size: 35px;
+}
+.navbar a:hover {
+  background-color: black;
+  color:black;
+}
+.navbar a.active {
+  background-color:black;
+  color: white;
+}
