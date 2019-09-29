@@ -4,9 +4,14 @@ body{
   font-family: 'Raleway', sans-serif;
   background-image: url("https://steamuserimages-a.akamaihd.net/ugc/100603056096585071/9D7C803F7321F3387B23FA3C176B3E0BC73B5153/");
 }
-.common{
+.common {
   padding-left: 100px;
   padding-right: 100px;
+}
+.float-right {
+float: right;
+width: 20%;
+height: 300px;
 }
 .navbar {
   background-color: lightskyblue;
