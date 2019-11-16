@@ -45,10 +45,10 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   transition: all 5s ease;
   animation: doOpacity 2s ease linear, doFontSize 2s ease-out;
   animation-fill-mode: forwards;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .progress-ul {
   color: white;
@@ -58,8 +58,10 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   transition: all 5s ease;
   animation: doOpacity 0.5s ease linear, doFontSize 0.5s ease-out;
   animation-fill-mode: forwards;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .text-maintenance {
   color: white;
@@ -71,10 +73,10 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   animation-fill-mode: forwards;
 }
 .title-maintenance {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: white;
   text-align: center;
   font-family: 'Raleway', sans-serif;
