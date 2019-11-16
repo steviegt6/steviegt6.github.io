@@ -49,10 +49,8 @@ a:active {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 3px;
   transition: all 5s ease;
-  animation: doOpacity 2s ease linear, doFontSize 2s ease-out;
+  animation: doOpacity 0.5s ease linear, doFontSize 0.5s ease-out;
   animation-fill-mode: forwards;
-  padding-top: 5%;
-  padding-bottom: 5%;
   padding-left: 20%;
   padding-right: 20%;
 }
