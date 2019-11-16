@@ -47,7 +47,7 @@ a:active {
 html[hide-scrollbar] ::-webkit-scrollbar {
   display: none !important;
 }
-.content-p {
+.content-sub-p {
   color: white;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -60,7 +60,7 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   padding-left: 30px;
   padding-right: 30px;
 }
-.content-ul {
+.content-sub-ul {
   color: white;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 3px;
