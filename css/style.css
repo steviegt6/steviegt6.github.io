@@ -29,6 +29,11 @@ a {
   color: teal;
   text-decoration: none;
 }
+a:link {
+  transition: color 1s ease;
+  color: teal;
+  text-decoration: none;
+}
 a:hover {
   color: lightblue;
 }
