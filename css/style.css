@@ -31,7 +31,7 @@ a:active {
   color: white;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 150%;
+  letter-spacing: 10px;
   transition: all 1s ease;
   animation: doOpacity 1s linear, doFontSize 1s ease-out;
   animation-fill-mode: forwards;
