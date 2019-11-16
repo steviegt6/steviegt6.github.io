@@ -1,4 +1,34 @@
+/*certain code snippets taken from valkyrienyanko; https://github.com/valkyrienyanko/valkyrienyanko.github.io*/
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap&subset=latin-ext');
 body {
   font-family: 'Raleway', sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+body::-webkit-scrollbar-track {
+  background-color: black;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  outline: 1px solid slategrey;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+a {
+  transition: color 1s ease;
+}
+a:active {
+  /*placeholder*/
+}
+.title-maintenance {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 150%;
+  transition: all 1s ease;
+  animation: doOpacity 1s linear, doFontSize 1s ease-out;
+  animation-fill-mode: forwards;
 }
