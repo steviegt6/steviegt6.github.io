@@ -1,5 +1,5 @@
 /*certain code snippets taken from valkyrienyanko; https://github.com/valkyrienyanko/valkyrienyanko.github.io*/
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap&subset=latin-ext'); /*imports font*/
 body {
   font-family: 'Raleway', sans-serif;
   background-color: black;
@@ -37,6 +37,10 @@ a:active {
   animation-fill-mode: forwards;
 }
 .title-maintenance {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
   color: white;
   text-align: center;
   font-family: 'Raleway', sans-serif;
