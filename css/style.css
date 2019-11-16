@@ -23,6 +23,7 @@ p {
 }
 ul, ol {
   color: white;
+  list-style-type: none;
 }
 a {
   transition: color 1s ease;
@@ -69,6 +70,7 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   animation-fill-mode: forwards;
   padding-top: 10px;
   padding-bottom: 5px;
+  text-align: center;
   padding-left: 150px;
   padding-right: 150px;
 }
