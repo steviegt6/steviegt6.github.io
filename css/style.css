@@ -27,6 +27,7 @@ ul, ol {
 a {
   transition: color 1s ease;
   color: teal;
+  text-decoration: none;
 }
 a:hover {
   color: lightblue;
