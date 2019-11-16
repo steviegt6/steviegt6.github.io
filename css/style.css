@@ -21,11 +21,40 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: white;
 }
+ul, ol {
+  color: white;
+}
 a {
   transition: color 1s ease;
 }
 a:active {
   /*placeholder*/
+}
+.progress-p {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  transition: all 5s ease;
+  animation: doOpacity 2s ease linear, doFontSize 2s ease-out;
+  animation-fill-mode: forwards;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.progress-ul {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  transition: all 5s ease;
+  animation: doOpacity 2s ease linear, doFontSize 2s ease-out;
+  animation-fill-mode: forwards;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .text-maintenance {
   color: white;
