@@ -27,6 +27,15 @@ a {
 a:active {
   /*placeholder*/
 }
+.text-maintenance {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 5px;
+  transition: all 3s ease;
+  animation: doOpacity 3s linear, doFontSize 3s ease-out;
+  animation-fill-mode: forwards;
+}
 .title-maintenance {
   color: white;
   text-align: center;
