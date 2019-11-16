@@ -63,7 +63,7 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   padding-left: 30px;
   padding-right: 30px;
 }
-.text-maintenance {
+.text-main {
   color: white;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -72,7 +72,7 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   animation: doOpacity 3s linear, doFontSize 3s ease-out;
   animation-fill-mode: forwards;
 }
-.title-maintenance {
+.title-main {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
