@@ -30,6 +30,13 @@ a {
 a:active {
   /*placeholder*/
 }
+::-webkit-scrollbar {
+  width: 0;
+  color: transparent;
+}
+html[hide-scrollbar] ::-webkit-scrollbar {
+  display: none !important;
+}
 .progress-p {
   color: white;
   text-align: center;
