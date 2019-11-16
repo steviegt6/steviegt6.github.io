@@ -47,7 +47,7 @@ a:active {
 html[hide-scrollbar] ::-webkit-scrollbar {
   display: none !important;
 }
-.progress-p {
+.content-p {
   color: white;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -60,9 +60,8 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   padding-left: 30px;
   padding-right: 30px;
 }
-.progress-ul {
+.content-ul {
   color: white;
-  text-align: center;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 3px;
   transition: all 5s ease;
@@ -70,8 +69,8 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   animation-fill-mode: forwards;
   padding-top: 10px;
   padding-bottom: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 .text-main {
   color: white;
