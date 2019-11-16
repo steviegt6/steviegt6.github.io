@@ -26,8 +26,6 @@ ul, ol {
 }
 a {
   transition: color 1s ease;
-  display: block;
-  text-decoration: none;
   color: teal;
 }
 a:hover {
