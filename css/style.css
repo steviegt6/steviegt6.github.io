@@ -98,3 +98,8 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   animation: doOpacity 1s linear, doFontSize 1s ease-out;
   animation-fill-mode: forwards;
 }
+canvas {
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+}
