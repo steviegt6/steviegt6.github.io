@@ -1,7 +1,7 @@
 /*certain code snippets taken from valkyrienyanko; https://github.com/valkyrienyanko/valkyrienyanko.github.io*/
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap&subset=latin-ext'); /*imports font*/
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap&subset=latin-ext"); /*imports font*/
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: black;
 }
 body::-webkit-scrollbar {
@@ -9,19 +9,25 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-track {
   background-color: darkgray;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 body::-webkit-scrollbar-thumb {
   background-color: darkgray;
   outline: 1px solid slategrey;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-align: center;
 }
 p {
   color: white;
 }
-ul, ol {
+ul,
+ol {
   color: white;
   list-style-type: none;
   padding: 0;
@@ -53,7 +59,7 @@ html[hide-scrollbar] ::-webkit-scrollbar {
 .progress-p {
   color: white;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
   transition: all 5s ease;
   animation: doOpacity 2s ease linear, doFontSize 2s ease-out;
@@ -65,7 +71,7 @@ html[hide-scrollbar] ::-webkit-scrollbar {
 }
 .progress-ul {
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
   transition: all 5s ease;
   animation: doOpacity 0.5s ease linear, doFontSize 0.5s ease-out;
@@ -79,7 +85,7 @@ html[hide-scrollbar] ::-webkit-scrollbar {
 .text-main {
   color: white;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 5px;
   transition: all 3s ease;
   animation: doOpacity 3s linear, doFontSize 3s ease-out;
@@ -92,7 +98,7 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   padding-right: 20px;
   color: white;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 10px;
   transition: all 1s ease;
   animation: doOpacity 1s linear, doFontSize 1s ease-out;
