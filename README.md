@@ -1,3 +1,5 @@
-# Stevie's Webite - steviegt6.github.io
-A website made with GitHub! Basic project I'm learning. :shrug:
-### im not good at anything please dont hate me thanks
+# Stevie's Website - steviegt6.github.op
+
+Hi, all! I'm Stevie, and you're looking at the GitHub page (most likely) for my website! Hope you enjoy. It's not much, but I tried, I guess.
+
+### imnotverygoodatthingspleasedontkillmethanks
