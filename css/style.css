@@ -67,8 +67,9 @@ a:active, .reload-bar a:active {
 html[hide-scrollbar] ::-webkit-scrollbar {
   display: none !important;
 }
-.progress-p {
+.progress-p, .reload-bar p {
   color: white;
+  display: inline-block;
   text-align: center;
   font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
