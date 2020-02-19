@@ -20,6 +20,8 @@ body::-webkit-scrollbar-thumb {
   font-family: "Raleway", sans-serif;
   text-align: right;
   color: white;
+  position: fixed;
+  bottom: 0;
 }
 h1,
 h2,
