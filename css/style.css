@@ -61,7 +61,6 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   text-align: center;
   font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
-  transition: all 5s ease;
   animation: doOpacity 2s ease linear, doFontSize 2s ease-out;
   animation-fill-mode: forwards;
   padding-top: 10px;
@@ -73,7 +72,6 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   color: white;
   font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
-  transition: all 5s ease;
   animation: doOpacity 0.5s ease linear, doFontSize 0.5s ease-out;
   animation-fill-mode: forwards;
   padding-top: 10px;
@@ -87,7 +85,6 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   text-align: center;
   font-family: "Raleway", sans-serif;
   letter-spacing: 5px;
-  transition: all 3s ease;
   animation: doOpacity 3s linear, doFontSize 3s ease-out;
   animation-fill-mode: forwards;
 }
@@ -100,7 +97,6 @@ html[hide-scrollbar] ::-webkit-scrollbar {
   text-align: center;
   font-family: "Raleway", sans-serif;
   letter-spacing: 10px;
-  transition: all 1s ease;
   animation: doOpacity 1s linear, doFontSize 1s ease-out;
   animation-fill-mode: forwards;
 }
