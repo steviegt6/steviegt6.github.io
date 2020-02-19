@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb {
 .reload-bar {
   background-color: black;
   font-family: "Raleway", sans-serif;
-  text-align: center;
+  text-align: center !important;
   color: white;
   position: fixed;
   bottom: 0;
