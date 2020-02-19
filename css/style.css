@@ -18,10 +18,12 @@ body::-webkit-scrollbar-thumb {
 .reload-bar {
   background-color: black;
   font-family: "Raleway", sans-serif;
-  text-align: right;
+  text-align: center;
   color: white;
   position: fixed;
   bottom: 0;
+  overflow: hidden;
+  width: 50%;
 }
 h1,
 h2,
