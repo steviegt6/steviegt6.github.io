@@ -8,12 +8,18 @@ body::-webkit-scrollbar {
   width: 1em;
 }
 body::-webkit-scrollbar-track {
-  background-color: darkgray;
+  background-color: black;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 body::-webkit-scrollbar-thumb {
   background-color: darkgray;
-  outline: 1px solid slategrey;
+  outline: 1px solid black;
+}
+.reload-bar {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  text-align: right;
+  color: white;
 }
 h1,
 h2,
@@ -33,20 +39,20 @@ ol {
   padding: 0;
   margin: 0;
 }
-a {
+a, .reload-bar a {
   transition: color 1s ease;
   color: teal;
   text-decoration: none;
 }
-a:link {
+a:link, .reload-bar a:link {
   transition: color 1s ease;
   color: teal;
   text-decoration: none;
 }
-a:hover {
+a:hover, .reload-bar a:hover {
   color: lightblue;
 }
-a:active {
+a:active, .reload-bar a:active {
   /*placeholder*/
 }
 ::-webkit-scrollbar {
