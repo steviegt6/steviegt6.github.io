@@ -33,6 +33,7 @@ h4,
 h5,
 h6 {
   text-align: center;
+  text-shadow: #FFFFFF 0 0 20px;
 }
 p {
   color: white;
