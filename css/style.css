@@ -49,14 +49,17 @@ a, .reload-bar a {
   transition: color 1s ease;
   color: teal;
   text-decoration: none;
+    text-shadow: teal 0 0 20px;
 }
 a:link, .reload-bar a:link {
   transition: color 1s ease;
   color: teal;
   text-decoration: none;
+    text-shadow: teal 0 0 20px;
 }
 a:hover, .reload-bar a:hover {
   color: lightblue;
+    text-shadow: lightblue 0 0 20px;
 }
 a:active, .reload-bar a:active {
   /*placeholder*/
