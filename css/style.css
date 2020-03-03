@@ -121,8 +121,10 @@ canvas {
   align-content: center;
 }
 ::selection {
-  background: darkgray; /* WebKit/Blink Browsers */
+  background: white;
+  color: black; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: darkgray; /* Gecko Browsers */
+  background: white;
+  color: black; /* Gecko Browsers */
 }
