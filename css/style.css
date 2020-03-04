@@ -34,6 +34,89 @@ ol {
   padding: 0;
   margin: 0;
 }
+a {
+    -webkit-animation: outlineTransition 3s linear 0s infinite;
+    -moz-animation: outlineTransition 3s linear 0s infinite;
+    -o-animation: outlineTransition 3s linear 0s infinite;
+    animation: outlineTransition 3s linear 0s infinite;
+  
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+@-webkit-keyframes outlineTransition {
+  from {
+        transition ease 1s;
+        outline-style: solid;
+  }
+  33.3% {
+        transition ease 1s;
+        outline-style: dotted;
+  }
+  66.6% {
+        transition ease 1s;
+        outline-style: dashed;
+  }
+    to {
+        transition ease 1s;
+        outline-style: solid;
+  }
+}
+@-moz-keyframes outlineTransition {
+  from {
+        transition ease 1s;
+        outline-style: solid;
+  }
+  33.3% {
+        transition ease 1s;
+        outline-style: dotted;
+  }
+  66.6% {
+        transition ease 1s;
+        outline-style: dashed;
+  }
+    to {
+        transition ease 1s;
+        outline-style: solid;
+  }
+}
+@-o-keyframes outlineTransition {
+  from {
+        transition ease 1s;
+        outline-style: solid;
+  }
+  33.3% {
+        transition ease 1s;
+        outline-style: dotted;
+  }
+  66.6% {
+        transition ease 1s;
+        outline-style: dashed;
+  }
+    to {
+        transition ease 1s;
+        outline-style: solid;
+  }
+}
+@keyframes outlineTransition {
+  from {
+        transition ease 1s;
+        outline-style: solid;
+  }
+  33.3% {
+        transition ease 1s;
+        outline-style: dotted;
+  }
+  66.6% {
+        transition ease 1s;
+        outline-style: dashed;
+  }
+    to {
+        transition ease 1s;
+        outline-style: solid;
+  }
+}
 a, .reload-bar a {
   transition: color 1s ease;
   color: teal;
