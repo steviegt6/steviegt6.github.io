@@ -4,17 +4,6 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: black;
 }
-body::-webkit-scrollbar {
-  width: 1em;
-}
-body::-webkit-scrollbar-track {
-  background-color: black;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-body::-webkit-scrollbar-thumb {
-  background-color: darkgray;
-  outline: 1px solid black;
-}
 .reload-bar {
   background-color: black;
   font-family: "Raleway", sans-serif;
@@ -55,23 +44,18 @@ a:link, .reload-bar a:link {
   transition: color 1s ease;
   color: teal;
   outline: teal;
+    outline-style: solid;
   text-decoration: none;
     text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
 }
 a:hover, .reload-bar a:hover {
   color: lightblue;
   outline: lightblue;
+  outline-style: solid;
   text-shadow: lightblue 0 0 20px lightblue 0 0 20px lightblue 0 0 20px;
 }
 a:active, .reload-bar a:active {
   /*placeholder*/
-}
-::-webkit-scrollbar {
-  width: 0;
-  color: transparent;
-}
-html[hide-scrollbar] ::-webkit-scrollbar {
-  display: none !important;
 }
 .progress-p, .reload-bar p {
   color: white;
