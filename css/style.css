@@ -48,73 +48,73 @@ a {
 @-webkit-keyframes outlineTransition {
   from {
         transition ease 1s;
-        outline-style: solid;
+        outline-style: solid 1px;
   }
   33.3% {
         transition ease 1s;
-        outline-style: dotted;
+        outline-style: dotted 1px;
   }
   66.6% {
         transition ease 1s;
-        outline-style: dashed;
+        outline-style: dashed 1px;
   }
     to {
         transition ease 1s;
-        outline-style: solid;
+        outline-style: solid 1px;
   }
 }
 @-moz-keyframes outlineTransition {
   from {
         transition ease 1s;
-        outline-style: solid;
+        outline-style: solid 1px;
   }
   33.3% {
         transition ease 1s;
-        outline-style: dotted;
+        outline-style: dotted 1px;
   }
   66.6% {
         transition ease 1s;
-        outline-style: dashed;
+        outline-style: dashed 1px;
   }
     to {
         transition ease 1s;
-        outline-style: solid;
+        outline-style: solid 1px;
   }
 }
 @-o-keyframes outlineTransition {
   from {
         transition ease 1s;
-        outline-style: solid;
+        outline-style: solid 1px;
   }
   33.3% {
         transition ease 1s;
-        outline-style: dotted;
+        outline-style: dotted 1px;
   }
   66.6% {
         transition ease 1s;
-        outline-style: dashed;
+        outline-style: dashed 1px;
   }
     to {
         transition ease 1s;
-        outline-style: solid;
+        outline-style: solid 1px;
   }
 }
 @keyframes outlineTransition {
   from {
         transition ease 1s;
-        outline-style: solid;
+        outline-style: solid 1px;
   }
   33.3% {
         transition ease 1s;
-        outline-style: dotted;
+        outline-style: dotted 1px;
   }
   66.6% {
         transition ease 1s;
-        outline-style: dashed;
+        outline-style: dashed 1px;
   }
     to {
         transition ease 1s;
-        outline-style: solid;
+        outline-style: solid 1px;
   }
 }
 a, .reload-bar a {
