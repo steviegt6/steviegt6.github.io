@@ -34,107 +34,25 @@ ol {
   padding: 0;
   margin: 0;
 }
-a {
-    -webkit-animation: outlineTransition 3s linear 0s infinite;
-    -moz-animation: outlineTransition 3s linear 0s infinite;
-    -o-animation: outlineTransition 3s linear 0s infinite;
-    animation: outlineTransition 3s linear 0s infinite;
-  
-    -webkit-animation-play-state: running;
-    -moz-animation-play-state: running;
-    -o-animation-play-state: running;
-    animation-play-state: running;
-}
-@-webkit-keyframes outlineTransition {
-  from {
-        transition: ease 1s;
-        outline-style: solid 1px;
-  }
-  33.3% {
-        transition: ease 1s;
-        outline-style: dotted 1px;
-  }
-  66.6% {
-        transition: ease 1s;
-        outline-style: dashed 1px;
-  }
-    to {
-        transition: ease 1s;
-        outline-style: solid 1px;
-  }
-}
-@-moz-keyframes outlineTransition {
-  from {
-        transition: ease 1s;
-        outline-style: solid 1px;
-  }
-  33.3% {
-        transition: ease 1s;
-        outline-style: dotted 1px;
-  }
-  66.6% {
-        transition: ease 1s;
-        outline-style: dashed 1px;
-  }
-    to {
-        transition: ease 1s;
-        outline-style: solid 1px;
-  }
-}
-@-o-keyframes outlineTransition {
-  from {
-        transition: ease 1s;
-        outline-style: solid 1px;
-  }
-  33.3% {
-        transition: ease 1s;
-        outline-style: dotted 1px;
-  }
-  66.6% {
-        transition: ease 1s;
-        outline-style: dashed 1px;
-  }
-    to {
-        transition: ease 1s;
-        outline-style: solid 1px;
-  }
-}
-@keyframes outlineTransition {
-  from {
-        transition: ease 1s;
-        outline-style: solid 1px;
-  }
-  33.3% {
-        transition: ease 1s;
-        outline-style: dotted 1px;
-  }
-  66.6% {
-        transition: ease 1s;
-        outline-style: dashed 1px;
-  }
-    to {
-        transition: ease 1s;
-        outline-style: solid 1px;
-  }
-}
 a, .reload-bar a {
   transition: color 1s ease;
   color: teal;
+  outline-style: teal solid 1px;
   text-decoration: none;
-    text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
+  text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
 }
 a:link, .reload-bar a:link {
   transition: color 1s ease;
   color: teal;
   outline: teal;
-    outline-style: solid;
+  outline-style: teal solid 1px;
   text-decoration: none;
-    text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
+  text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
 }
 a:hover, .reload-bar a:hover {
   color: lightblue;
   outline: lightblue;
-  outline-style: solid;
+  outline-style: lightblue solid 1px;
   text-shadow: lightblue 0 0 20px lightblue 0 0 20px lightblue 0 0 20px;
 }
 a:active, .reload-bar a:active {
