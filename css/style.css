@@ -54,12 +54,14 @@ a, .reload-bar a {
 a:link, .reload-bar a:link {
   transition: color 1s ease;
   color: teal;
+  outline: teal;
   text-decoration: none;
     text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
 }
 a:hover, .reload-bar a:hover {
   color: lightblue;
-    text-shadow: lightblue 0 0 20px lightblue 0 0 20px lightblue 0 0 20px;
+  outline: lightblue;
+  text-shadow: lightblue 0 0 20px lightblue 0 0 20px lightblue 0 0 20px;
 }
 a:active, .reload-bar a:active {
   /*placeholder*/
