@@ -35,7 +35,7 @@ ol {
   padding: 0;
   margin: 0;
 }
-a, .reload-bar a {
+a {
   transition: color 1s ease;
   color: teal;
   outline-style: teal solid 1px;
@@ -146,4 +146,8 @@ body {
 @-o-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+
+loadOverlay {
+  display: none;
 }
