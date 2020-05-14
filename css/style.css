@@ -4,16 +4,19 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: black;
 }
-.reload-bar {
-  background-color: black;
-  font-family: "Raleway", sans-serif;
-  display: inline-block;
-  text-align: center !important;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  overflow: hidden;
-  width: 50%;
+a:link, .reload-bar a:link {
+  transition: color 1s ease;
+  color: teal;
+  outline: teal;
+  outline-style: teal solid 1px;
+  text-decoration: none;
+  text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
+}
+a:hover, .reload-bar a:hover {
+  color: lightblue;
+  outline: lightblue;
+  outline-style: lightblue solid 1px;
+  text-shadow: lightblue 0 0 20px lightblue 0 0 20px lightblue 0 0 20px;
 }
 h1,
 h2,
@@ -41,20 +44,6 @@ a {
   outline-style: teal solid 1px;
   text-decoration: none;
   text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
-}
-a:link, .reload-bar a:link {
-  transition: color 1s ease;
-  color: teal;
-  outline: teal;
-  outline-style: teal solid 1px;
-  text-decoration: none;
-  text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
-}
-a:hover, .reload-bar a:hover {
-  color: lightblue;
-  outline: lightblue;
-  outline-style: lightblue solid 1px;
-  text-shadow: lightblue 0 0 20px lightblue 0 0 20px lightblue 0 0 20px;
 }
 .progress-ul {
   color: white;
