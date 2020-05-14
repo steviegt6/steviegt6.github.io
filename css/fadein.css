@@ -1,0 +1,41 @@
+body:not(a) {
+    text-align: center;
+  
+    -webkit-animation: fadein 4s;
+       -moz-animation: fadein 4s;
+        -ms-animation: fadein 4s;
+         -o-animation: fadein 4s;
+            animation: fadein 4s;
+  }
+  a {
+    -webkit-animation: fadein 8s;
+    -moz-animation: fadein 8s;
+     -ms-animation: fadein 8s;
+      -o-animation: fadein 8s;
+         animation: fadein 8s;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
