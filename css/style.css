@@ -127,3 +127,15 @@ canvas {
     text-shadow: #FFFFFF 0 0 20px;
   }
 }
+
+body {
+  opacity: 100;
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}​
