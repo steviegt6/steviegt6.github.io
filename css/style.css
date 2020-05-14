@@ -56,21 +56,6 @@ a:hover, .reload-bar a:hover {
   outline-style: lightblue solid 1px;
   text-shadow: lightblue 0 0 20px lightblue 0 0 20px lightblue 0 0 20px;
 }
-a:active, .reload-bar a:active {
-  /*placeholder*/
-}
-.progress-p, .reload-bar p {
-  color: white;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 3px;
-  animation: doOpacity 2s ease linear, doFontSize 2s ease-out;
-  animation-fill-mode: forwards;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
 .progress-ul {
   color: white;
   font-family: "Raleway", sans-serif;
@@ -138,4 +123,4 @@ body {
   -o-transition: opacity 2s ease-in;
   -ms-transition: opacity 2s ease-in;
   transition: opacity 2s ease-in;
-}​
+}
