@@ -102,7 +102,7 @@ canvas {
   }
 }
 
-body {
+body:not(a) {
   text-align: center;
 
   -webkit-animation: fadein 2s;
