@@ -4,7 +4,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: black;
 }
-a:link, .reload-bar a:link {
+a:link {
   transition: color 1s ease;
   color: teal;
   outline: teal;
@@ -12,7 +12,7 @@ a:link, .reload-bar a:link {
   text-decoration: none;
   text-shadow: teal 0 0 60px teal 0 0 60px teal 0 0 60px;
 }
-a:hover, .reload-bar a:hover {
+a:hover {
   color: lightblue;
   outline: lightblue;
   outline-style: lightblue solid 1px;
@@ -110,6 +110,13 @@ body {
       -ms-animation: fadein 2s;
        -o-animation: fadein 2s;
           animation: fadein 2s;
+}
+a {
+  -webkit-animation: fadein 5s;
+  -moz-animation: fadein 5s;
+   -ms-animation: fadein 5s;
+    -o-animation: fadein 5s;
+       animation: fadein 5s;
 }
 
 @keyframes fadein {
