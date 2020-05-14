@@ -120,10 +120,10 @@ canvas {
 @keyframes headerGlow {
   0% {
     color: white;
-    text-shadow: #FFFFFF 0 0 0px;
+    text-shadow: #FFFFFF 0 0 10px;
   }
   100% {
     color: white;
-    text-shadow: #FFFFFF 0 0 20px;
+    text-shadow: #FFFFFF 0 0 50px;
   }
 }
