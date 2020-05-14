@@ -124,6 +124,6 @@ canvas {
   }
   100% {
     color: white;
-    text-shadow: #FFFFFF 0 0 50px;
+    text-shadow: #FFFFFF 0 0 20px;
   }
 }
