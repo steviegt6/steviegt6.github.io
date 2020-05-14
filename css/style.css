@@ -148,6 +148,6 @@ body {
   to   { opacity: 1; }
 }
 
-loadOverlay {
+#loadOverlay {
   display: none;
 }
