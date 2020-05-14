@@ -21,8 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-  /*text-align: center;
-  text-shadow: #FFFFFF 0 0 20px;*/
+  text-align: center;
+  color: white;
   animation: headerGlow 800ms ease-out infinite alternate;
 }
 p {
