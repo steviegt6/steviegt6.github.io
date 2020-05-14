@@ -115,3 +115,14 @@ canvas {
   background: white;
   color: black; /* Gecko Browsers */
 }
+
+@keyframes maintitleGlow {
+  0% {
+    color: white;
+    text-shadow: #FFFFFF 0 0 0px;
+  }
+  100% {
+    color: white;
+    text-shadow: #FFFFFF 0 0 20px;
+  }
+}
