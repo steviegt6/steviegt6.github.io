@@ -21,8 +21,9 @@ h3,
 h4,
 h5,
 h6 {
-  text-align: center;
-  text-shadow: #FFFFFF 0 0 20px;
+  /*text-align: center;
+  text-shadow: #FFFFFF 0 0 20px;*/
+  animation: headerGlow 800ms ease-out infinite alternate;
 }
 p {
   color: white;
@@ -116,7 +117,7 @@ canvas {
   color: black; /* Gecko Browsers */
 }
 
-@keyframes maintitleGlow {
+@keyframes headerGlow {
   0% {
     color: white;
     text-shadow: #FFFFFF 0 0 0px;
