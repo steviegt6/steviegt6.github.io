@@ -14,11 +14,16 @@ body:not(a) {
 
   }
   a {
-    -webkit-animation: fadein 8s;
-    -moz-animation: fadein 8s;
-     -ms-animation: fadein 8s;
-      -o-animation: fadein 8s;
-         animation: fadein 8s;
+           -webkit-animation: fadein 8s;
+              -moz-animation: fadein 8s;
+               -ms-animation: fadein 8s;
+                -o-animation: fadein 8s;
+                   animation: fadein 8s;
+         -webkit-animation-duration: 8s;
+            -moz-animation-duration: 8s;
+             -ms-animation-duration: 8s;
+              -o-animation-duration: 8s;
+                 animation-duration: 8s;
   }
   
   @keyframes fadein {
