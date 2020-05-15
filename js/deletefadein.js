@@ -1,5 +1,7 @@
 function deleteFadeIn() {
-    $("link[href='../css/fadein.css']").remove();
+    for (;;) {
+        document.getElementById("fadeBody").style.opacity = 1;
+    }
 }
 
 window.onLoad = setTimeout(deleteFadeIn, 8500);
