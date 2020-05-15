@@ -67,7 +67,7 @@ a {
   text-align: center;
   font-family: "Raleway", sans-serif;
   letter-spacing: 10px;
-  animation: doOpacity 1s linear, doFontSize 1s ease-out;
+  animation: doOpacity 1s linear, doFontSize 3s ease-out;
   animation-fill-mode: forwards;
 }
 canvas {
