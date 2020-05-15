@@ -11,6 +11,7 @@ a:link {
   outline-style: teal solid 1px;
 }
 a:hover {
+  transition: color 1s ease;
   color: lightblue;
   outline: lightblue;
   outline-style: lightblue solid 1px;
