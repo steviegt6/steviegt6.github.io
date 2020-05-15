@@ -6,17 +6,10 @@ body {
 }
 a:link {
   transition: color 1s ease;
-  color: teal;
-  outline: teal;
-  outline-style: teal solid 1px;
-}
-a:hover {
-  transition: color 1s ease;
   color: lightblue;
   outline: lightblue;
   outline-style: lightblue solid 1px;
-  animation: linkGlow 1000ms ease-out infinite alternate;
-  
+  animation: linkGlow 1000ms ease-in-out infinite alternate;
 }
 h1,
 h2,
