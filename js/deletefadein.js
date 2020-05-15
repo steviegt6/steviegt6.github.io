@@ -2,4 +2,4 @@ function deleteFadeIn() {
     $("link[href='../css/fadein.css']").remove();
 }
 
-setTimeout(deleteFadeIn, 8500);
+window.onLoad = setTimeout(deleteFadeIn, 8500);
