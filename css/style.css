@@ -106,6 +106,15 @@ canvas {
   }
 }
 
+@keyframes titleMainSpaceing {
+  0% {
+    letter-spacing: 35px;
+  }
+  100% {
+    letter-spacing: 10px;
+  }
+}
+
 #loadOverlay {
   display: none;
 }
