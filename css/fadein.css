@@ -1,11 +1,17 @@
 body:not(a) {
     text-align: center;
   
-    -webkit-animation: fadein 4s;
-       -moz-animation: fadein 4s;
-        -ms-animation: fadein 4s;
-         -o-animation: fadein 4s;
-            animation: fadein 4s;
+      -webkit-animation: fadein 4s;
+         -moz-animation: fadein 4s;
+          -ms-animation: fadein 4s;
+           -o-animation: fadein 4s;
+              animation: fadein 4s;
+    -webkit-animation-duration: 4s;
+       -moz-animation-duration: 4s;
+        -ms-animation-duration: 4s;
+         -o-animation-duration: 4s;
+            animation-duration: 4s;
+
   }
   a {
     -webkit-animation: fadein 8s;
