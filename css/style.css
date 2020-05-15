@@ -125,10 +125,10 @@ canvas {
 
 @keyframes smallHeaderPush {
   0% {
-    margin-bottom: 100%;
+    margin-bottom: 0%;
   }
   100% {
-    margin-bottom: 0%;
+    margin-bottom: 100%;
   }
 }
 
