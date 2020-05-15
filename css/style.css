@@ -21,13 +21,7 @@ h6 {
   color: white;
   animation: headerGlow 800ms ease-out infinite alternate;
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
-  animation: smallHeaderPush 500ms ease-out;
-}
+
 p {
   color: white;
 }
@@ -120,15 +114,6 @@ canvas {
   }
   100% {
     letter-spacing: 10px;
-  }
-}
-
-@keyframes smallHeaderPush {
-  0% {
-    margin-bottom: 0%;
-  }
-  100% {
-    margin-bottom: 100%;
   }
 }
 
