@@ -13,7 +13,7 @@ body:not(a) {
             animation-duration: 4s;
 
   }
-  a {
+.fadeBody:a {
            -webkit-animation: fadein 8s;
               -moz-animation: fadein 8s;
                -ms-animation: fadein 8s;
