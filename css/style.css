@@ -69,6 +69,7 @@ a {
   letter-spacing: 10px;
   animation: doOpacity 1s linear, doFontSize 3s ease-out;
   animation-fill-mode: forwards;
+  animation: titleMainSpacing 1500ms ease-out;
 }
 canvas {
   display: block;
@@ -106,7 +107,7 @@ canvas {
   }
 }
 
-@keyframes titleMainSpaceing {
+@keyframes titleMainSpacing {
   0% {
     letter-spacing: 35px;
   }
