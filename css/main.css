@@ -4,6 +4,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: black;
     color: white;
+    text-align: center;
     animation: fadeIn ease 3s;
     -moz-animation: fadeIn ease 3s;
     -o-animation: fadeIn ease 3s;
@@ -11,11 +12,25 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    animation: pulsateHeaders 3s infinite alternate, glowWhite 3s infinite alternate;
-    -moz-animation: pulsateHeaders 3s infinite alternate, glowWhite 3s infinite alternate;
-    -o-animation: pulsateHeaders 3s infinite alternate, glowWhite 3s infinite alternate;
-    -webkit-animation: pulsateHeaders 3s infinite alternate, glowWhite 3s infinite alternate;
+    animation: glowWhite 5s infinite alternate;
+    -moz-animation: glowWhite 5s infinite alternate;
+    -o-animation: glowWhite 5s infinite alternate;
+    -webkit-animation: glowWhite 5s infinite alternate;
+}
+
+a {
+    color:teal;
+    animation: glowTeal 3s infinite alternate;
+    -moz-animation: glowTeal 3s infinite alternate;
+    -o-animation: glowTeal 3s infinite alternate;
+    -webkit-animation: glowTeal 3s infinite alternate;
+}
+
+#soontm {
+    animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
+    -moz-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
+    -o-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
+    -webkit-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
 }
 
 @keyframes fadeIn {
@@ -42,5 +57,14 @@ h1, h2, h3, h4, h5, h6 {
     }
     to {
         text-shadow: 0 0 10px white, 0 0 25px white, 0 0 35px white;
+    }
+}
+
+@keyframes glowTeal {
+    from {
+        text-shadow: 0 0 0px teal, 0 0 4px teal, 0 0 8px teal;
+    }
+    to {
+        text-shadow: 0 0 2px teal, 0 0 6px teal, 0 0 10px teal;
     }
 }
