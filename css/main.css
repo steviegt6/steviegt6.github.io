@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+    animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    animation: pulsateHeaders 3s infinite alternate, glowWhite 3s infinite alternate;
+    -moz-animation: pulsateHeaders 3s infinite alternate, glowWhite 3s infinite alternate;
+    -o-animation: pulsateHeaders 3s infinite alternate, glowWhite 3s infinite alternate;
+    -webkit-animation: pulsateHeaders 3s infinite alternate, glowWhite 3s infinite alternate;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pulsateHeaders {
+    0% {
+        font-size: 180%;
+    }
+    100%{
+        font-size: 190%;
+    }
+}
+
+@keyframes glowWhite {
+    from {
+        text-shadow: 0 0 5px white, 0 0 15px white, 0 0 25px white;
+    }
+    to {
+        text-shadow: 0 0 10px white, 0 0 25px white, 0 0 35px white;
+    }
+}
