@@ -27,10 +27,10 @@ a {
 }
 
 img {
-    animation: delay 7s fadeIn ease 3s;
-    -moz-animation: delay 7s fadeIn ease 3s;
-    -o-animation: delay 7s fadeIn ease 3s;
-    -webkit-animation: delay 7s fadeIn ease 3s;
+    animation: delay 10s fadeIn ease 3s;
+    -moz-animation: delay 10s fadeIn ease 3s;
+    -o-animation: delay 10s fadeIn ease 3s;
+    -webkit-animation: delay 10s fadeIn ease 3s;
 }
 
 #soontm {
