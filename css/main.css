@@ -32,18 +32,18 @@ a {
 }
 
 img {
-    animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
+    animation: delay 3s, fadeIn ease 7s;
+    -moz-animation: delay 3s, fadeIn ease 7s;
+    -o-animation: delay 3s, fadeIn ease 7s;
+    -webkit-animation: delay 3s, fadeIn ease 7s;
 }
 
-#soontm {
+/*#soontm {
     animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
     -moz-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
     -o-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
     -webkit-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
-}
+}*/
 
 @keyframes fadeIn {
     0% {
@@ -54,14 +54,14 @@ img {
     }
 }
 
-@keyframes pulsateHeaders {
+/*@keyframes pulsateHeaders {
     0% {
         font-size: 180%;
     }
     100%{
         font-size: 190%;
     }
-}
+}*/
 
 @keyframes glowWhite {
     from {
