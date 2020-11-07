@@ -26,6 +26,13 @@ a {
     -webkit-animation: glowTeal 3s infinite alternate;
 }
 
+img {
+    animation: delay 7s fadeIn ease 3s;
+    -moz-animation: delay 7s fadeIn ease 3s;
+    -o-animation: delay 7s fadeIn ease 3s;
+    -webkit-animation: delay 7s fadeIn ease 3s;
+}
+
 #soontm {
     animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
     -moz-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
