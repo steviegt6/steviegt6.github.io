@@ -5,6 +5,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    letter-spacing: 1px;
     animation: fadeIn ease 3s;
     -moz-animation: fadeIn ease 3s;
     -o-animation: fadeIn ease 3s;
@@ -12,10 +13,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    animation: glowWhite 5s infinite alternate;
-    -moz-animation: glowWhite 5s infinite alternate;
-    -o-animation: glowWhite 5s infinite alternate;
-    -webkit-animation: glowWhite 5s infinite alternate;
+    letter-spacing: 3px;
+    animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
+    -moz-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
+    -o-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
+    -webkit-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
 }
 
 p {
@@ -54,6 +56,20 @@ img {
     }
 }
 
+@keyframes comeFromSides {
+    0% {
+        letter-spacing: 10px;
+    }
+
+    75% {
+        letter-spacing: 1px;
+    }
+
+    100% {
+        letter-spacing: 3px;
+    }
+}
+
 /*@keyframes pulsateHeaders {
     0% {
         font-size: 180%;
@@ -74,9 +90,9 @@ img {
 
 @keyframes glowTeal {
     from {
-        text-shadow: 0 0 0px teal, 0 0 4px teal, 0 0 8px teal;
+        text-shadow: 0 0 0px teal, 0 0 2px teal, 0 0 4px teal;
     }
     to {
-        text-shadow: 0 0 2px teal, 0 0 6px teal, 0 0 10px teal;
+        text-shadow: 0 0 1px teal, 0 0 3px teal, 0 0 5px teal;
     }
 }
