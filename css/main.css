@@ -18,6 +18,11 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-animation: glowWhite 5s infinite alternate;
 }
 
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 a {
     color:teal;
     animation: glowTeal 3s infinite alternate;
