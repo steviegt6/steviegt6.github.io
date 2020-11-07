@@ -32,10 +32,10 @@ a {
 }
 
 img {
-    animation: delay 10s fadeIn ease 3s;
-    -moz-animation: delay 10s fadeIn ease 3s;
-    -o-animation: delay 10s fadeIn ease 3s;
-    -webkit-animation: delay 10s fadeIn ease 3s;
+    animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
 }
 
 #soontm {
