@@ -1,44 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 body {
-    font-family: 'Raleway', sans-serif;
-    background-color: black;
-    color: white;
-    text-align: center;
-    letter-spacing: 1px;
-    animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
+	font-family: 'Raleway', sans-serif;
+	background-color: black;
+	color: white;
+	text-align: center;
+	letter-spacing: 1px;
+	animation: fadeIn ease 3s;
+	-moz-animation: fadeIn ease 3s;
+	-o-animation: fadeIn ease 3s;
+	-webkit-animation: fadeIn ease 3s;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    letter-spacing: 3px;
-    animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
-    -moz-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
-    -o-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
-    -webkit-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: 3px;
+	animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
+	-moz-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
+	-o-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
+	-webkit-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
 }
 
 p {
-    margin-left: 25%;
-    margin-right: 25%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 a {
-    color:teal;
-    animation: glowTeal 3s infinite alternate;
-    -moz-animation: glowTeal 3s infinite alternate;
-    -o-animation: glowTeal 3s infinite alternate;
-    -webkit-animation: glowTeal 3s infinite alternate;
+	color: teal;
+	animation: glowTeal 3s infinite alternate;
+	-moz-animation: glowTeal 3s infinite alternate;
+	-o-animation: glowTeal 3s infinite alternate;
+	-webkit-animation: glowTeal 3s infinite alternate;
 }
 
 img {
-    animation: delay 3s, fadeIn ease 7s;
-    -moz-animation: delay 3s, fadeIn ease 7s;
-    -o-animation: delay 3s, fadeIn ease 7s;
-    -webkit-animation: delay 3s, fadeIn ease 7s;
+	animation: delay 3s, fadeIn ease 7s;
+	-moz-animation: delay 3s, fadeIn ease 7s;
+	-o-animation: delay 3s, fadeIn ease 7s;
+	-webkit-animation: delay 3s, fadeIn ease 7s;
 }
+
 
 /*#soontm {
     animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
@@ -48,27 +53,26 @@ img {
 }*/
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes comeFromSides {
-    0% {
-        letter-spacing: 10px;
-    }
-
-    75% {
-        letter-spacing: 1px;
-    }
-
-    100% {
-        letter-spacing: 3px;
-    }
+	0% {
+		letter-spacing: 10px;
+	}
+	75% {
+		letter-spacing: 1px;
+	}
+	100% {
+		letter-spacing: 3px;
+	}
 }
+
 
 /*@keyframes pulsateHeaders {
     0% {
@@ -80,19 +84,19 @@ img {
 }*/
 
 @keyframes glowWhite {
-    from {
-        text-shadow: 0 0 5px white, 0 0 15px white, 0 0 25px white;
-    }
-    to {
-        text-shadow: 0 0 10px white, 0 0 25px white, 0 0 35px white;
-    }
+	from {
+		text-shadow: 0 0 5px white, 0 0 15px white, 0 0 25px white;
+	}
+	to {
+		text-shadow: 0 0 10px white, 0 0 25px white, 0 0 35px white;
+	}
 }
 
 @keyframes glowTeal {
-    from {
-        text-shadow: 0 0 0px teal, 0 0 2px teal, 0 0 4px teal;
-    }
-    to {
-        text-shadow: 0 0 1px teal, 0 0 3px teal, 0 0 5px teal;
-    }
+	from {
+		text-shadow: 0 0 0px teal, 0 0 2px teal, 0 0 4px teal;
+	}
+	to {
+		text-shadow: 0 0 1px teal, 0 0 3px teal, 0 0 5px teal;
+	}
 }

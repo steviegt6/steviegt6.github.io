@@ -3,10 +3,12 @@ var error404URLs = [
     "https://httpstatusdogs.com/img/404.jpg"
 ];
 
-function get404Image() {
-    var imgText = "<img src =\"";
-    var index = Math.floor(Math.random() * error404URLs.length);
-    imgText += error404URLs[index];
-    imgText += "\"/>";
-    return imgText;
+function getRandomImage(name) {
+    var array = name == "error404URLs" ? error404URLs : [""];
+
+    if (array == [""]) {
+        throw "Array was empty, input was: " + name;
+    }
+
+    return "<img src =\"" + array[Math.floor(Math.random() * array.length)] + "\"/>";
 }
