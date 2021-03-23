@@ -65,7 +65,7 @@ img {
 	0% {
 		letter-spacing: 10px;
 	}
-	75% {
+	85% {
 		letter-spacing: 1px;
 	}
 	100% {
@@ -85,18 +85,18 @@ img {
 
 @keyframes glowWhite {
 	from {
-		text-shadow: 0 0 5px white, 0 0 15px white, 0 0 25px white;
+		text-shadow: 0 0 2px white, 0 0 6px white, 0 0 10px white;
 	}
 	to {
-		text-shadow: 0 0 10px white, 0 0 25px white, 0 0 35px white;
+		text-shadow: 0 0 4px white, 0 0 8px white, 0 0 12px white;
 	}
 }
 
 @keyframes glowTeal {
 	from {
-		text-shadow: 0 0 0px teal, 0 0 2px teal, 0 0 4px teal;
+		text-shadow: 0 0 0px teal, 0 0 4px teal, 0 0 8px teal;
 	}
 	to {
-		text-shadow: 0 0 1px teal, 0 0 3px teal, 0 0 5px teal;
+		text-shadow: 0 0 2px teal, 0 0 6px teal, 0 0 10px teal;
 	}
 }
