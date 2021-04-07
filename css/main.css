@@ -59,11 +59,11 @@ a:hover {
 	background-clip: text;
 	-webkit-background-clip: text;
 	
-	background: linear-gradient(180deg, red, white);
-	animation: redWhiteCycle 1s infinite alternate;
-	-moz-animation: redWhiteCycle 1s infinite alternate;
-	-o-animation: redWhiteCycle 1s infinite alternate;
-	-webkit-animation: redWhiteCycle 1s infinite alternate;
+	background: linear-gradient(to right, red, white);
+	animation: redWhiteCycle 1s ease-in-out infinite;
+	-moz-animation: redWhiteCycle 1s ease-in-out infinite;
+	-o-animation: redWhiteCycle 1s ease-in-out infinite;
+	-webkit-animation: redWhiteCycle 1s ease-in-out infinite;
 	background-size: 400% 100%;
 }
 
