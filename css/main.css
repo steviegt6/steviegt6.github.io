@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
 	font-family: 'Raleway', sans-serif;
 	
@@ -52,10 +53,10 @@ a:hover {
 }
 
 img {
-	animation: delay 3s, fadeIn ease 7s;
-	-moz-animation: delay 3s, fadeIn ease 7s;
-	-o-animation: delay 3s, fadeIn ease 7s;
-	-webkit-animation: delay 3s, fadeIn ease 7s;
+	animation: delay 7s, fadeIn ease 3s;
+	-moz-animation: delay 7s, fadeIn ease 3s;
+	-o-animation: delay 7s, fadeIn ease 3s;
+	-webkit-animation: delay 7s, fadeIn ease 3s;
 }
 
 
