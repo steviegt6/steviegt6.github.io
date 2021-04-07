@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
 	-moz-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
 	-o-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
@@ -31,10 +31,23 @@ p {
 
 a {
 	color: teal;
+	text-decoration: none;
+	
 	animation: glowTeal 3s infinite alternate;
 	-moz-animation: glowTeal 3s infinite alternate;
 	-o-animation: glowTeal 3s infinite alternate;
 	-webkit-animation: glowTeal 3s infinite alternate;
+}
+
+
+a:hover {
+	color: aqua;
+	text-decoration: none;
+	
+	animation: glowAqua 3s infinite alternate;
+	-moz-animation: glowAqua 3s infinite alternate;
+	-o-animation: glowAqua 3s infinite alternate;
+	-webkit-animation: glowAqua 3s infinite alternate;
 }
 
 img {
@@ -65,11 +78,8 @@ img {
 	0% {
 		letter-spacing: 10px;
 	}
-	85% {
-		letter-spacing: 1px;
-	}
 	100% {
-		letter-spacing: 3px;
+		letter-spacing: 2px;
 	}
 }
 
@@ -99,4 +109,13 @@ img {
 	to {
 		text-shadow: 0 0 2px teal, 0 0 6px teal, 0 0 10px teal;
 	}
+}
+
+@keyframes glowAqua {
+  from {
+    text-shadow: 0 0 22px aqua, 0 0 26px aqua, 0 0 30px aqua;
+  }
+  to {
+    text-shadow: 0 0 24px aqua, 0 0 28px aqua, 0 0 32px aqua;
+  }
 }
