@@ -59,7 +59,7 @@ a:hover {
 	background-clip: text;
 	-webkit-background-clip: text;
 	
-	/* linear-gradient(180deg, red, white); */
+	background: linear-gradient(180deg, red, white);
 	animation: redWhiteCycle 1s infinite alternate;
 	-moz-animation: redWhiteCycle 1s infinite alternate;
 	-o-animation: redWhiteCycle 1s infinite alternate;
