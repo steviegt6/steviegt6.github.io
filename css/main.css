@@ -60,17 +60,17 @@ a:hover {
 }
 
 .comedicyoutubelink {
-	background: linear-gradient(to right, red, white, red, white, red);
+	background: linear-gradient(to right, red, red, white, red, red);
 	
 	background-clip: text;
 	-webkit-background-clip: text;
 	
 	color: transparent;
 	
-	animation: redWhiteCycle 4s infinite alternate;
-	-moz-animation: redWhiteCycle 4s infinite alternate;
-	-o-animation: redWhiteCycle 4s infinite alternate;
-	-webkit-animation: redWhiteCycle 4s infinite alternate;
+	animation: redWhiteCycle 1s infinite alternate;
+	-moz-animation: redWhiteCycle 1s infinite alternate;
+	-o-animation: redWhiteCycle 1s infinite alternate;
+	-webkit-animation: redWhiteCycle 1s infinite alternate;
 	
 	background-size: 400% 100%;
 }
