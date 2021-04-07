@@ -52,6 +52,21 @@ a:hover {
 	-webkit-animation: glowAqua 1s infinite alternate;
 }
 
+/* https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css/54702294 */
+.comedicyoutubelink {
+	color: transparent;
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+	
+	/* linear-gradient(180deg, red, white); */
+	animation: redWhiteCycle 1s infinite alternate;
+	-moz-animation: redWhiteCycle 1s infinite alternate;
+	-o-animation: redWhiteCycle 1s infinite alternate;
+	-webkit-animation: redWhiteCycle 1s infinite alternate;
+	background-size: 400% 100%;
+}
+
 img {
 	animation: delay 7s, fadeIn ease 3s;
 	-moz-animation: delay 7s, fadeIn ease 3s;
@@ -66,6 +81,16 @@ img {
     -o-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
     -webkit-animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
 }*/
+
+@keyframes redWhiteCycle {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
 
 @keyframes fadeIn {
 	0% {
