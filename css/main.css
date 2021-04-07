@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 body {
 	font-family: 'Raleway', sans-serif;
+	
 	background-color: black;
 	color: white;
+	
 	text-align: center;
 	letter-spacing: 1px;
+	
+	margin-left: 15%;
+	margin-right: 15%;
+	
 	animation: fadeIn ease 3s;
 	-moz-animation: fadeIn ease 3s;
 	-o-animation: fadeIn ease 3s;
@@ -22,11 +28,6 @@ h6 {
 	-moz-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
 	-o-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
 	-webkit-animation: comeFromSides ease 5s, glowWhite 1s infinite alternate;
-}
-
-p {
-	margin-left: 25%;
-	margin-right: 25%;
 }
 
 a {
