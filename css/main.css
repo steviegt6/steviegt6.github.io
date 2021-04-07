@@ -67,10 +67,10 @@ a:hover {
 	
 	color: transparent;
 	
-	animation: redWhiteCycle 4s ease-in-out infinite;
-	-moz-animation: redWhiteCycle 4s ease-in-out infinite;
-	-o-animation: redWhiteCycle 4s ease-in-out infinite;
-	-webkit-animation: redWhiteCycle 4s ease-in-out infinite;
+	animation: redWhiteCycle 4s infinite;
+	-moz-animation: redWhiteCycle 4s infinite;
+	-o-animation: redWhiteCycle 4s infinite;
+	-webkit-animation: redWhiteCycle 4s infinite;
 	
 	background-size: 400% 100%;
 }
