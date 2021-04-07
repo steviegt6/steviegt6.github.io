@@ -52,18 +52,24 @@ a:hover {
 	-webkit-animation: glowAqua 1s infinite alternate;
 }
 
+
 /* https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css/54702294 */
+#backgroundytlink {
+	background-color: rgb(0, 0, 0); /* Fallback color */
+    	background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
+}
+
 .comedicyoutubelink {
 	color: transparent;
 	
 	background-clip: text;
 	-webkit-background-clip: text;
 	
-	background: linear-gradient(to right, red, white);
-	animation: redWhiteCycle 1s ease-in-out infinite;
-	-moz-animation: redWhiteCycle 1s ease-in-out infinite;
-	-o-animation: redWhiteCycle 1s ease-in-out infinite;
-	-webkit-animation: redWhiteCycle 1s ease-in-out infinite;
+	background: linear-gradient(to right, red, white, red);
+	animation: redWhiteCycle 4s ease-in-out infinite;
+	-moz-animation: redWhiteCycle 4s ease-in-out infinite;
+	-o-animation: redWhiteCycle 4s ease-in-out infinite;
+	-webkit-animation: redWhiteCycle 4s ease-in-out infinite;
 	background-size: 400% 100%;
 }
 
