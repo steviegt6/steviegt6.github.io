@@ -37,7 +37,8 @@ h6 {
     	background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
 }
 
-.comedicyoutubelink {
+.comedicyoutubelink,
+.comedicyoutubelink-git {
 	text-decoration: none;
     
 	background: linear-gradient(to right, red, white, red);
@@ -55,7 +56,8 @@ h6 {
 	background-size: 800% 100%;
 }
 
-.comedicyoutubelink:hover {
+.comedicyoutubelink:hover,
+.comedicyoutubelink-git:hover {
 	text-decoration: none;
     
 	background: linear-gradient(to right, red, white, red);
