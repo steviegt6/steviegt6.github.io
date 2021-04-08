@@ -47,10 +47,10 @@ h6 {
 	
 	color: transparent;
     
-	animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
-	-moz-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
-	-o-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
-	-webkit-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
+	animation: redWhiteCycle 1s ease-in-out infinite;
+	-moz-animation: redWhiteCycle 1s ease-in-out infinite;
+	-o-animation: redWhiteCycle 1s ease-in-out infinite;
+	-webkit-animation: redWhiteCycle 1s ease-in-out infinite;
 	
 	background-size: 800% 100%;
 }
@@ -65,10 +65,10 @@ h6 {
 	
 	color: transparent;
     
-	animation: redWhiteCycle 1s ease-in-out infinite, glowRedStrong 1s infinite alternate;
-	-moz-animation: redWhiteCycle 1s ease-in-out infinite, glowRedStrong 1s infinite alternate;
-	-o-animation: redWhiteCycle 1s ease-in-out infinite, glowRedStrong 1s infinite alternate;
-	-webkit-animation: redWhiteCycle 1s ease-in-out infinite, glowRedStrong 1s infinite alternate;
+	animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
+	-moz-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
+	-o-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
+	-webkit-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
 	
 	background-size: 800% 100%;
 }
@@ -172,15 +172,6 @@ img {
   	to {
     	text-shadow: 0 0 24px aqua, 0 0 28px aqua, 0 0 32px aqua;
   	}
-}
-
-@keyframes glowRedStrong {
-	from {
-		text-shadow: 0 0 8px red, 0 0 12px red, 0 0 16px red;
-	}
-	to {
-		text-shadow: 0 0 10px red, 0 0 14px red, 0 0 18px red;
-	}
 }
 
 @keyframes glowRed {
