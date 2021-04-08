@@ -1,3 +1,2 @@
-# Get Started!
-
-Add files and start typing 🎉
+# steviegt6.github.io
+Simple page for my stuff. Nothing special.
