@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 body {
-	font-family: 'Raleway', sans-serif;
-	
-	background-color: black;
-	color: white;
-	
-	text-align: center;
-	letter-spacing: 1px;
-	
-	margin-left: 15%;
-	margin-right: 15%;
-	
-	animation: fadeIn ease 3s;
-	-moz-animation: fadeIn ease 3s;
-	-o-animation: fadeIn ease 3s;
-	-webkit-animation: fadeIn ease 3s;
+  font-family: "Raleway", sans-serif;
+
+  background-color: black;
+  color: white;
+
+  text-align: center;
+  letter-spacing: 1px;
+
+  margin-left: 15%;
+  margin-right: 15%;
+
+  animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
 }
 
 h1,
@@ -24,83 +24,85 @@ h3,
 h4,
 h5,
 h6 {
-	letter-spacing: 2px;
-	animation: comeFromSides ease 3s, glowWhite 1s infinite alternate;
-	-moz-animation: comeFromSides ease 3s, glowWhite 1s infinite alternate;
-	-o-animation: comeFromSides ease 3s, glowWhite 1s infinite alternate;
-	-webkit-animation: comeFromSides ease 3s, glowWhite 1s infinite alternate;
+  letter-spacing: 2px;
+  animation: comeFromSides ease 3s, glowWhite 1s infinite alternate;
+  -moz-animation: comeFromSides ease 3s, glowWhite 1s infinite alternate;
+  -o-animation: comeFromSides ease 3s, glowWhite 1s infinite alternate;
+  -webkit-animation: comeFromSides ease 3s, glowWhite 1s infinite alternate;
 }
 
 /* https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css/54702294 */
 #backgroundytlink {
-	background-color: rgb(0, 0, 0); /* Fallback color */
-    	background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
 }
 
 .comedicyoutubelink {
-	text-decoration: none;
-    
-	background: linear-gradient(to right, red, white, red);
-	
-	background-clip: text;
-	-webkit-background-clip: text;
-	
-	color: transparent;
-    
-	animation: redWhiteCycle 1s ease-in-out infinite;
-	-moz-animation: redWhiteCycle 1s ease-in-out infinite;
-	-o-animation: redWhiteCycle 1s ease-in-out infinite;
-	-webkit-animation: redWhiteCycle 1s ease-in-out infinite;
-	
-	background-size: 800% 100%;
+  text-decoration: none;
+
+  background: linear-gradient(to right, red, white, red);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  animation: redWhiteCycle 1s ease-in-out infinite;
+  -moz-animation: redWhiteCycle 1s ease-in-out infinite;
+  -o-animation: redWhiteCycle 1s ease-in-out infinite;
+  -webkit-animation: redWhiteCycle 1s ease-in-out infinite;
+
+  background-size: 800% 100%;
 }
 
 .comedicyoutubelink:hover {
-	text-decoration: none;
-    
-	background: linear-gradient(to right, red, white, red);
-	
-	background-clip: text;
-	-webkit-background-clip: text;
-	
-	color: transparent;
-    
-	animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
-	-moz-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
-	-o-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
-	-webkit-animation: redWhiteCycle 1s ease-in-out infinite, glowRed 1s infinite alternate;
-	
-	background-size: 800% 100%;
+  text-decoration: none;
+
+  background: linear-gradient(to right, red, white, red);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  animation: redWhiteCycle 1s ease-in-out infinite,
+    glowRed 1s infinite alternate;
+  -moz-animation: redWhiteCycle 1s ease-in-out infinite,
+    glowRed 1s infinite alternate;
+  -o-animation: redWhiteCycle 1s ease-in-out infinite,
+    glowRed 1s infinite alternate;
+  -webkit-animation: redWhiteCycle 1s ease-in-out infinite,
+    glowRed 1s infinite alternate;
+
+  background-size: 800% 100%;
 }
 
 a {
-	color: teal;
-	text-decoration: none;
-	
-	animation: glowTeal 3s infinite alternate;
-	-moz-animation: glowTeal 3s infinite alternate;
-	-o-animation: glowTeal 3s infinite alternate;
-	-webkit-animation: glowTeal 3s infinite alternate;
+  color: teal;
+  text-decoration: none;
+
+  animation: glowTeal 3s infinite alternate;
+  -moz-animation: glowTeal 3s infinite alternate;
+  -o-animation: glowTeal 3s infinite alternate;
+  -webkit-animation: glowTeal 3s infinite alternate;
 }
 
-
 a:hover {
-	color: aqua;
-	text-decoration: none;
-	
-	animation: glowAqua 1s infinite alternate;
-	-moz-animation: glowAqua 1s infinite alternate;
-	-o-animation: glowAqua 1s infinite alternate;
-	-webkit-animation: glowAqua 1s infinite alternate;
+  color: aqua;
+  text-decoration: none;
+
+  animation: glowAqua 1s infinite alternate;
+  -moz-animation: glowAqua 1s infinite alternate;
+  -o-animation: glowAqua 1s infinite alternate;
+  -webkit-animation: glowAqua 1s infinite alternate;
 }
 
 img {
-	animation: delay 7s, fadeIn ease 3s;
-	-moz-animation: delay 7s, fadeIn ease 3s;
-	-o-animation: delay 7s, fadeIn ease 3s;
-	-webkit-animation: delay 7s, fadeIn ease 3s;
+  animation: delay 7s, fadeIn ease 3s;
+  -moz-animation: delay 7s, fadeIn ease 3s;
+  -o-animation: delay 7s, fadeIn ease 3s;
+  -webkit-animation: delay 7s, fadeIn ease 3s;
 }
-
 
 /*#soontm {
     animation: pulsateHeaders 3s infinite alternate, glowWhite 5s infinite alternate;
@@ -110,33 +112,32 @@ img {
 }*/
 
 @keyframes redWhiteCycle {
-    0% {
-        background-position: 0 0;
-    }
+  0% {
+    background-position: 0 0;
+  }
 
-    100% {
-        background-position: 100% 0;
-    }
+  100% {
+    background-position: 100% 0;
+  }
 }
 
 @keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes comeFromSides {
-	0% {
-		letter-spacing: 5px;
-	}
-	100% {
-		letter-spacing: 2px;
-	}
+  0% {
+    letter-spacing: 5px;
+  }
+  100% {
+    letter-spacing: 2px;
+  }
 }
-
 
 /*@keyframes pulsateHeaders {
     0% {
@@ -148,37 +149,37 @@ img {
 }*/
 
 @keyframes glowWhite {
-	from {
-		text-shadow: 0 0 2px white, 0 0 6px white, 0 0 10px white;
-	}
-	to {
-		text-shadow: 0 0 4px white, 0 0 8px white, 0 0 12px white;
-	}
+  from {
+    text-shadow: 0 0 2px white, 0 0 6px white, 0 0 10px white;
+  }
+  to {
+    text-shadow: 0 0 4px white, 0 0 8px white, 0 0 12px white;
+  }
 }
 
 @keyframes glowTeal {
-	from {
-		text-shadow: 0 0 0px teal, 0 0 4px teal, 0 0 8px teal;
-	}
-	to {
-		text-shadow: 0 0 2px teal, 0 0 6px teal, 0 0 10px teal;
-	}
+  from {
+    text-shadow: 0 0 0px teal, 0 0 4px teal, 0 0 8px teal;
+  }
+  to {
+    text-shadow: 0 0 2px teal, 0 0 6px teal, 0 0 10px teal;
+  }
 }
 
 @keyframes glowAqua {
-  	from {
-    	text-shadow: 0 0 22px aqua, 0 0 26px aqua, 0 0 30px aqua;
-  	}
-  	to {
-    	text-shadow: 0 0 24px aqua, 0 0 28px aqua, 0 0 32px aqua;
-  	}
+  from {
+    text-shadow: 0 0 22px aqua, 0 0 26px aqua, 0 0 30px aqua;
+  }
+  to {
+    text-shadow: 0 0 24px aqua, 0 0 28px aqua, 0 0 32px aqua;
+  }
 }
 
 @keyframes glowRed {
-  	from {
-    	text-shadow: 0 0 22px red, 0 0 26px red, 0 0 30px red;
-  	}
-  	to {
-    	text-shadow: 0 0 24px red, 0 0 28px red, 0 0 32px red;
-  	}
+  from {
+    text-shadow: 0 0 22px red, 0 0 26px red, 0 0 30px red;
+  }
+  to {
+    text-shadow: 0 0 24px red, 0 0 28px red, 0 0 32px red;
+  }
 }
