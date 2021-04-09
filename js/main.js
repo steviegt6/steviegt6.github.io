@@ -1,3 +1,6 @@
+// all functions & other important stuff below
+window.addEventListener("load", loadEvent, false)
+
 var error404URLs = [
     "https://http.cat/404",
     "https://httpstatusdogs.com/img/404.jpg",
@@ -20,4 +23,8 @@ function processImageArrayInput(name) {
         default:
             throw "Array not found, input was: " + name;
     }
+}
+
+function handleCustomLinkLogic(url) {
+  
 }
