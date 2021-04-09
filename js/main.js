@@ -1,10 +1,6 @@
-// all functions & other important stuff below
-window.addEventListener("load", loadEvent, false);
-
-// main load event, nothing all that important
-function loadEvent() {}
-
-function handleCustomLinkLogic(url) {}
+$("p").hover(function() {
+  $("document").style.cursor = "alias"; 
+});
 
 var error404URLs = [
   "https://http.cat/404",
