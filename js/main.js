@@ -1,7 +1,3 @@
-window.addEventListener("load", function() {
-  alert('Page is loaded');
-});
-
 var error404URLs = [
     "https://http.cat/404",
     "https://httpstatusdogs.com/img/404.jpg",
