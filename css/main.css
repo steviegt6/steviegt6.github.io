@@ -183,3 +183,60 @@ img {
     text-shadow: 0 0 24px red, 0 0 28px red, 0 0 32px red;
   }
 }
+
+.navList {
+  list-style-type: none;
+  margin = 0;
+  padding = 0;
+  overflow: hidden;
+  background-color: dark-gray;
+}
+
+.listsNav {
+  float: left;
+}
+
+li a, .project-buttons {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px, 16px;
+  text-decoration: none;
+}
+
+li.projectButton {
+  display: inline-block;
+}
+
+.project-buttons {
+  display: none;
+  position: absolute;
+  min-width = 160px;
+  box-shadow = 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index = 1;
+}
+
+.project-buttons a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.project-buttons a:hover {
+  color: black;
+}
+
+.project-buttons .projectButton:hover {
+  display: block;
+}
+
+/* navigation bar stuff */
+/*
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+*/
