@@ -1,3 +1,41 @@
+var navigationBar = `
+<div class="nav">
+  <ul>
+    <li><a href="#index">Index</a></li>
+    <li class="projectButton"><a href="#projects">Projects</a></li>
+    <div class="project-buttons">
+      <a href="#projects/Terraclient">Terraclient</a>
+      <a href="#projects/TMLPatcher">TML.Patcher</a>
+      <a href="#projects/404">etc.</a>
+    </div>
+    <li><a href="#about">About</a></li>
+    <li><a href="#recruitment">"Triv's rec. msg.
+  </ul>
+</div>
+`;
+
+/*
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+*/
+
+window.onload = function() {
+  // automatically add the navbar to the 
+  //beginning of all pages that load this
+  // js file (contents are preserved perfectly)
+  document.body.innerHTML = navigationBar + document.body.innerHTML;
+}
+
 var error404URLs = [
   "https://http.cat/404",
   "https://httpstatusdogs.com/img/404.jpg",
