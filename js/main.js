@@ -4,17 +4,20 @@ var navigationBar = `
   
   <a href="recruitment.html">Recruitment Memery</a>
   
+  <a href="projects/tmlpatcher/subprojects.html">TML.Patcher Sub-Projects</a>
+  
   <div class="drop">
     <button class="drop-btn">
-      <a href="projects.html">Projects</a>
+      <a href="projects.html">Main Projects</a>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="drop-ctnt">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="projects/stardew64installer.html">Stardew64Installer</a>
+      <a href="projects/tmlpatcher.html">TML.Patcher</a>
+      <a href="projects/tmlmods.html">tModLoader Mods</a>
+      <a href="projects/standaloneterraria.html">Standalone Terraria</a>
     </div>
-  </div> 
+  </div>
 </div>
 `;
 
