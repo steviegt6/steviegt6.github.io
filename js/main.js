@@ -2,20 +2,20 @@ var navigationBar = `
 <div class="nav">
   <a href="index.html">Home</a>
   
-  <a href="recruitment.html">Recruitment Memery</a>
+  <a href="/recruitment.html">Recruitment Memery</a>
   
-  <a href="projects/tmlpatcher/subprojects.html">TML.Patcher Sub-Projects</a>
+  <a href="/projects/tmlpatcher/subprojects.html">TML.Patcher Sub-Projects</a>
   
   <div class="drop">
     <button class="drop-btn">
-      <a href="projects.html">Main Projects</a>
+      <a href="/projects.html">Main Projects</a>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="drop-ctnt">
-      <a href="projects/stardew64installer.html">Stardew64Installer</a>
-      <a href="projects/tmlpatcher.html">TML.Patcher</a>
-      <a href="projects/tmlmods.html">tModLoader Mods</a>
-      <a href="projects/standaloneterraria.html">Standalone Terraria</a>
+      <a href="/projects/stardew64installer.html">Stardew64Installer</a>
+      <a href="/projects/tmlpatcher.html">TML.Patcher</a>
+      <a href="/projects/tmlmods.html">tModLoader Mods</a>
+      <a href="/projects/standaloneterraria.html">Standalone Terraria</a>
     </div>
   </div>
 </div>
