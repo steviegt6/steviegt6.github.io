@@ -1,13 +1,15 @@
 var navigationBar = `
-<div class="navbar">
+<div class="nav">
   <a href="index.html">Home</a>
+  
   <a href="recruitment.html">Recruitment Memery</a>
-  <div class="dropdown">
-    <button class="dropbtn">
-      <a href="#">Projects</a>
+  
+  <div class="drop">
+    <button class="drop-btn">
+      <a href="projects.html">Projects</a>
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
+    <div class="drop-ctnt">
       <a href="#">Link 1</a>
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>

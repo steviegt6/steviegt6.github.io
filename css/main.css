@@ -184,31 +184,30 @@ img {
   }
 }
 
-.navbar {
+.nav {
   overflow: hidden;
 }
 
-.navbar a {
+.nav a {
   float: left;
   text-align: center;
   padding: 14px 16px;
 }
 
-.dropdown {
+.drop {
   float: left;
   overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.drop .drop-btn {
   font-size: inherit;
   border: none;
   outline: none;
-  padding: 14px 16px;
   background-color: inherit;
-  margin: 0;
+  margin: 0;*/
 }
 
-.dropdown-content {
+.drop-ctnt {
   display: none;
   position: absolute;
   background-color: black;
@@ -216,7 +215,7 @@ img {
   z-index: 1;
 }
 
-.dropdown-content a {
+.drop-ctnt a {
   float: none;
   padding: 12px 16px;
   text-decoration: none;
@@ -224,6 +223,6 @@ img {
   text-align: left;
 }
 
-.dropdown:hover .dropdown-content {
+.drop:hover .drop-ctnt {
   display: block;
 }
