@@ -1,18 +1,19 @@
 var navigationBar = `
-<ul class="ul-nav">
-  <div class="li-nav">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </li>
-  </div>
-</ul>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="recruitment.html">Recruitment Memery</a>
+  <div class="dropdown">
+    <button class="dropbtn">
+      <a href="#">Projects</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
 `;
 
 window.onload = function() {
