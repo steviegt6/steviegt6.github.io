@@ -1,6 +1,6 @@
 var navigationBar = `
 <div class="nav">
-  <a href="index.html">Home</a>
+  <a href="/index.html">Home</a>
   
   <a href="/recruitment.html">Recruitment Memery</a>
   
