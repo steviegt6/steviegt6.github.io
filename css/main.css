@@ -2,4 +2,11 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
 }
