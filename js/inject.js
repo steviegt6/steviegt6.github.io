@@ -4,7 +4,8 @@
  * also handles stylesheets
  */
 window.onload = function() {
-  add(fileType.CSS, "/css/main.css")
+  add(fileType.CSS, "/css/main.css");
+  add(fileType.JS, "/js/particleHandler.js");
 };
 
 const fileType = {
@@ -17,7 +18,7 @@ function createStyleSheetRef(file) {
 }
 
 function createScriptRef(file) {
-  return "<script src=" + file + "></script>"
+  return "<script src=" + file + "></script>";
 }
 
 function add(type, file) {
