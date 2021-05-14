@@ -4,12 +4,13 @@
  * also handles stylesheets
  */
 window.onload = function() {
-  document.body.innerHTML =
-    '<div id="particles-js"></div>' + document.body.innerHTML;
-
-  add(fileType.CSS, "head", "/css/main.css");
-  add(fileType.JS, "body", "/js/vincent_garreau/particles.js");
-  add(fileType.JS, "body", "/js/particleHandler.js");
+  //add(fileType.JS, "body", "/js/vincent_garreau/particles.js", appendType.Beginning);
+  //add(fileType.JS, "body", "/js/particleHandler.js", appendType.Beginning);
+  
+  //document.body.innerHTML =
+  //  '<div id="particles-js"></div>' + document.body.innerHTML;
+  
+  add(fileType.CSS, "head", "/css/main.css", appendType.End);
 };
 
 const fileType = {
@@ -36,13 +37,26 @@ function add(type, element, file, append) {
   switch (type) {
     case fileType.CSS:
       switch (append) {
-          case appendType.Beginning
+        case appendType.Beginning:
+          headElement.innerHTML = createStyleSheetRef(file) + headElement.innerHTML;
+          break;
+          
+        case appendType.End:
+          headElement.innerHTML += createStyleSheetRef(file);
+          break;
       }
-      headElement.innerHTML += createStyleSheetRef(file);
       break;
 
     case fileType.JS:
-      headElement.innerHTML += createScriptRef(file);
+      switch (append) {
+        case appendType.Beginning:
+          headElement.innerHTML = createScriptRef(file) + headElement.innerHTML;
+          break;
+          
+        case appendType.End:
+          headElement.innerHTML += createScriptRef(file);
+          break;
+      }
       break;
   }
 }
