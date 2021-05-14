@@ -13,11 +13,11 @@ const fileType = {
 };
 
 function createStyleSheetRef(file) {
-  var cssLink = document.createElement("link");
-  cssLink.rel = "stylesheet";
-  cssLink.type = "text/css";
-  cssLink.href = "style.css";
-  return cssLink;
+  return "<link rel=\"stylesheet\" href=" + file + ">";
+}
+
+function createScriptRef(file) {
+  return "<script src=" + file + "></script>"
 }
 
 function add(type, file) {
@@ -25,10 +25,11 @@ function add(type, file) {
 
   switch (type) {
     case fileType.CSS:
-      headElement.appendChild(createStyleSheetRef(file));
+      headElement.innerHTML += createStyleSheetRef(file);
       break;
 
     case fileType.JS:
+      headElement.innerHTML += createScriptRef(file);
       break;
   }
 }
