@@ -7,16 +7,28 @@
 body {
   font-family: "Raleway", sans-serif;
   text-align: center;
-
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
 }
 
 #particles-js {
   position: fixed;
   width: 100%;
   z-index: -1;
+}
+
+#bottom-bar {
+  font-size: 12px;
+  text-align: left;
+
+  left: 0px;
+  bottom: 0px;
+  height: 36px;
+
+  width: 100%;
+
+  position: fixed;
+  background: gray;
+}
+
+#bottom-bar p {
+  padding-left: 10px;
 }

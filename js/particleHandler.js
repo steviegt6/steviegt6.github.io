@@ -1,6 +1,6 @@
 window.particlesJS("particles-js", {
   particles: {
-    number: { value: 150, density: { enable: true, value_area: 800 } },
+    number: { value: 75, density: { enable: true, value_area: 800 } },
     color: { value: "#000000" },
     /*shape: {
       type: "circle",
@@ -11,18 +11,18 @@ window.particlesJS("particles-js", {
     opacity: {
       value: 0.5,
       random: true,
-      anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+      anim: { enable: false, speed: 1, opacity_min: 0.1, sync: true }
     },
     size: {
       value: 6,
       random: true,
-      anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+      anim: { enable: true, speed: 1, size_min: 0.1, sync: false }
     },
     line_linked: {
       enable: true,
-      distance: 200,
+      distance: 250,
       color: "#000000",
-      opacity: 0.4,
+      opacity: 0.2,
       width: 1
     },
     move: {
@@ -51,5 +51,5 @@ window.particlesJS("particles-js", {
       remove: { particles_nb: 2 }
     }
   },
-  retina_detect: true
+  retina_detect: false
 });
