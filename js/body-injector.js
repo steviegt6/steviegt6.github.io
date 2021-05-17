@@ -1,9 +1,3 @@
-var injectParticles = `
-<div id="tsparticles"></div>
-<script src="/js/matteo/bruni/tsparticles.js"></script>
-<script src="/js/particleHandler.js"></script>
-`;
-
 var injectFooter = `
 <div id="bottom-bar">
   <p>
@@ -15,7 +9,7 @@ var injectFooter = `
 document.addEventListener(
   "DOMContentLoaded",
   function() {
-    document.body.innerHTML = injectParticles + document.body.innerHTML + injectFooter;
+    document.body.innerHTML += document.body.innerHTML + injectFooter;
   },
   false
 );
