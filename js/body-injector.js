@@ -1,7 +1,7 @@
 var injectFooter = `
 <div id="bottom-bar">
   <p>
-    © 2021 Stevie, MIT License - particles.js by Vincent Garreau, MIT License (https://vincentgarreau.com/particles.js/)
+    © 2021 Stevie, MIT License
   </p>
 </div>
 `;
