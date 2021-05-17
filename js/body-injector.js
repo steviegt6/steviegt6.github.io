@@ -9,7 +9,7 @@ var injectFooter = `
 document.addEventListener(
   "DOMContentLoaded",
   function() {
-    document.body.innerHTML += document.body.innerHTML + injectFooter;
+    document.body.innerHTML += injectFooter;
   },
   false
 );
