@@ -3,72 +3,17 @@
   "background": {
     "color": {
       "value": "#ffffff"
-    },
-    "image": "",
-    "position": "50% 50%",
-    "repeat": "no-repeat",
-    "size": "cover",
-    "opacity": 1
-  },
-  "backgroundMask": {
-    "composite": "destination-out",
-    "cover": {
-      "color": {
-        "value": "#fff"
-      },
-      "opacity": 1
-    },
-    "enable": false
+    }
   },
   "fullScreen": {
     "enable": true,
-    "zIndex": 1
+    "zIndex": -1
   },
   "detectRetina": true,
   "fpsLimit": 60,
-  "infection": {
-    "cure": false,
-    "delay": 0,
-    "enable": false,
-    "infections": 0,
-    "stages": []
-  },
   "interactivity": {
     "detectsOn": "canvas",
-    "events": {
-      "onClick": {
-        "enable": false,
-        "mode": "push"
-      },
-      "onDiv": {
-        "selectors": [],
-        "enable": false,
-        "mode": [],
-        "type": "circle"
-      },
-      "onHover": {
-        "enable": false,
-        "mode": "grab",
-        "parallax": {
-          "enable": true,
-          "force": 60,
-          "smooth": 10
-        }
-      },
-      "resize": true
-    },
     "modes": {
-      "attract": {
-        "distance": 200,
-        "duration": 0.4,
-        "easing": "ease-out-quad",
-        "factor": 1,
-        "maxSpeed": 50,
-        "speed": 1
-      },
-      "bounce": {
-        "distance": 200
-      },
       "bubble": {
         "distance": 400,
         "duration": 2,
@@ -78,7 +23,7 @@
       "connect": {
         "distance": 80,
         "links": {
-          "opacity": 0.5
+          "opacity": 0.25
         },
         "radius": 60
       },
